@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #e6eef5;
+  color: #333;
+}
+
+.cv-wrapper {
+  display: flex;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 30%;
+  background: #1a73e8;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.sidebar p {
+  margin: 6px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.section {
+  margin-top: 25px;
+}
+
+.section h3 {
+  font-size: 16px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.main-content {
+  width: 70%;
+  padding: 40px 30px;
+}
+
+.main-content h2 {
+  color: #1a73e8;
+  font-size: 20px;
+  border-left: 4px solid #1a73e8;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.main-content p, ul {
+  font-size: 15px;
+  color: #444;
+}
+
+.job h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.job em {
+  color: #666;
+  font-size: 13px;
+}
